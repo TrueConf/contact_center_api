@@ -88,7 +88,6 @@ If necessary, you can forbid the guests to use some [features of WebRTC client](
 :point_right: ***Tip*** 
 > To save the history of communication between operators and customers, you can [set up automatic recording of video calls](https://trueconf.com/blog/knowledge-base/how-to-record-video-conference.html#How_to_record_video_conferences_on_TrueConf_Server_side).
 
-You can get acquainted with the example of HTML website and the described algorithm on GitHub.
 ____
 [:arrow_up:Table of Contents](#table-of-contents)
 ___
