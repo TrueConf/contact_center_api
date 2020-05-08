@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test call center</title>
+
+<script type="text/javascript" src="api-functions.js"></script>
+
+<style type="text/css">
+    .button {
+        padding: 20px 28px;
+        font-size: 18px;
+        border-radius: 5px;
+        background-color: #008080;
+        color: #ffffff;
+        border: 0;
+        cursor: pointer;
+    }
+
+    .message {
+        padding: 20px 28px;
+        font-size: 20px;
+        border-radius: 5px;
+        background-color: #ee8026;
+        color: #ffffff;
+        border: 0;
+    }
+
+    h1 {
+        color: #1199ab;
+    }
+</style>
+</head>
+<body style="background-color: #f8feff">
+
+<h1>Conference widget</h1>
+    
+<div id="webrtc-client" style="display: none;">
+    
+</div>
+
+<!-- <iframe allowfullscreen="allowfullscreen" width="720" height="405" allow="microphone; camera; autoplay" src="https://10.120.1.141/webrtc/7743736740#login=*guest*guest&token=$2d01eeb8c1441929df0bb209f441edff5*1576503364*f10b377429f7e37ff458e1cfd7464bc0&lang=auto"></iframe> -->
+
+<div id="error-block" style="display: none;">
+    <p id="error-message" class="message"></p>
+    <button class="button" onclick="hideError()">Hide</button>
+</div>
+
+<div id="timer-block" style="display: none;">
+    <p id="timer-message" class="message">Searching for free operator. Please wait <span id="timer-value"></span> seconds.</p>
+    <button id="cancel-call" class="button">Cancel</button>
+</div>
+
+<div id="call-buttons">
+    <button id="start-call" class="button" onclick="startCall()">Call</button>
+    <button id="stop-call" class="button" style="display: none;">Hang Up</button>
+</div>
+
+</body>
+</html>
