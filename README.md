@@ -1,4 +1,4 @@
-# How to make video contact center using TrueConf Server API
+# How to deploy a video contact center with TrueConf Server API
 ____
 ## Table of Contents
 1. [Pre-configuring TrueConf Server](#pre-configuring-trueconf-server)
